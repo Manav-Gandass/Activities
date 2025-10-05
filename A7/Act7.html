@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geometric Shapes</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+      .shape-container {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+      }
+      .shape {
+        width: 100px;
+        height: 100px;
+      }
+      .circle {
+        background-color: #0000ff;
+        border-radius: 50%;
+      }
+      .rectangle {
+        width: 150px;
+        height: 80px;
+        background-color: #4b0082;
+      }
+      .diamond {
+        background-color: #2e8b57;
+        transform: rotate(45deg);
+      }
+      .square {
+        background-color: #ff0033;
+      }
+      .triangle {
+        width: 0;
+        height: 0;
+        background-color: transparent;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid #adff2f;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shape-container">
+      <div class="shape circle"></div>
+      <div class="shape rectangle"></div>
+      <div class="shape diamond"></div>
+      <div class="shape square"></div>
+      <div class="triangle"></div>
+    </div>
+  </body>
+</html>
